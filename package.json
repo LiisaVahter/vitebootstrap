@@ -1,9 +1,21 @@
 {
+  "name": "vitebootstrap",
+  "description": "Gustavson ja Vahter paaristöö",
+  "version": "1.0.0",
+  "main": "vite.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "vite"
+  },
   "devDependencies": {
+    "sass": "^1.69.5",
     "vite": "^4.5.0"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.2"
-  }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
