@@ -1,2 +1,13 @@
-// Import all of Bootstrap's CSS
+
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+
+$primary: $indigo;
+$secondary: #1190f2;
+
+$theme-colors: (
+  "primary": $pink,
+  "secondary": $secondary,
+);
+
 @import "bootstrap/scss/bootstrap";
